@@ -1,0 +1,24 @@
+# Gradle / 构建产物
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本机配置（包含 SDK 路径，不应提交）
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Kotlin 编译缓存
+.kotlin/
+
+# 签名文件
+*.jks
+*.keystore
+
+# 上传用的临时令牌（绝不提交）
+.github-token
